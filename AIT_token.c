@@ -1,6 +1,6 @@
 pragma solidity ^0.4.16;
 
-contract TKT_TokenERC20 {
+contract AIT_TokenERC20 {
     // Public variables of the token
     string public name;
     string public symbol;
@@ -20,7 +20,7 @@ contract TKT_TokenERC20 {
      *
      * Initializes contract with initial supply tokens to the creator of the contract
      */
-    function TKT_TokenERC20(
+    function AIT_TokenERC20(
         uint256 initialSupply,
         string tokenName,
         string tokenSymbol
